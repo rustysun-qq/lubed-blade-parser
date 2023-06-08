@@ -1,0 +1,16 @@
+{
+    "name":"lubed/blade-parser",
+    "type": "project",
+    "license": "proprietary",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "lubed/template": "dev-main"
+    },
+    "config": { },
+    "autoload": {
+        "psr-4": {
+            "Lubed\\BladeParser\\": "src/"
+        }
+    }
+}
